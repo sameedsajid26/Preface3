@@ -1,0 +1,43 @@
+html{
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url("background-image.jpg");
+  background-size: cover;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 45%;
+}
+
+*{
+  font-family: Montserrat;
+  color: white
+}
+
+h3{
+  color: #04AA6D;
+}
+
+.guessSubmit{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.guessField{
+  color: black;
+}
+
+.result {
+  color: white;
+  padding: 3px;
+}
